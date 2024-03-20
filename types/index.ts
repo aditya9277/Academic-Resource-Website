@@ -35,7 +35,7 @@ export interface IData {
 }
 
 export type Category =
-  | 'frontend'
+  | 'MAT2001'
   | 'backend'
   | 'languages'
   | 'ai'

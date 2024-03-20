@@ -7,7 +7,7 @@ export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
 
 export const sidebarData: ISidebar[] = [
   {
-    category: 'frontend',
+    category: 'MAT2001',
     subcategory: [
       { name: 'next js', url: '/next-js', resources: DB.next },
       {
@@ -62,7 +62,7 @@ export const sidebarData: ISidebar[] = [
         name: 'js-Chart Libraries',
         url: '/js-chart-libraries',
         resources: DB.jsChartLibraries,
-      }
+      },
     ],
   },
   {
