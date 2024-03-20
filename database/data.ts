@@ -66,7 +66,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'backend',
+    category: 'DLD3001',
     subcategory: [
       {
         name: 'architecture',

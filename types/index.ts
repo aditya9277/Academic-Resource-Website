@@ -36,7 +36,7 @@ export interface IData {
 
 export type Category =
   | 'MAT2001'
-  | 'backend'
+  | 'DLD3001'
   | 'languages'
   | 'ai'
   | 'internet-of-things'
