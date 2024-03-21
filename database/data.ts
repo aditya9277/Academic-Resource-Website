@@ -66,7 +66,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'DLD3001',
+    category: 'AI-ML',
     subcategory: [
       {
         name: 'architecture',
@@ -101,7 +101,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'languages',
+    category: 'MGT-2003',
     subcategory: [
       { name: 'JavaScript', url: '/javascript', resources: DB.javascript },
       { name: 'Python', url: '/python', resources: DB.python },
@@ -124,7 +124,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'open-source',
+    category: 'Applied Maths',
     subcategory: [
       {
         name: 'Articles',
@@ -154,7 +154,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'devops',
+    category: 'EVS',
     subcategory: [
       { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
       {
@@ -187,7 +187,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'ai',
+    category: 'Intro-to-programming',
     subcategory: [
       {
         name: 'artificial intelligence',
@@ -213,7 +213,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'cyber-security',
+    category: 'Calculus-Laplace',
     subcategory: [
       {
         name: 'Offensive security',
@@ -239,7 +239,7 @@ export const sidebarData: ISidebar[] = [
   },
 
   {
-    category: 'cloud-computing',
+    category: 'Engineering-Physics',
     subcategory: [
       { name: 'google cloud', url: '/gcp', resources: DB.gcp },
       {
@@ -253,184 +253,184 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'internet-of-things',
+    category: 'English',
     subcategory: [
       { name: 'coursera', url: '/coursera', resources: DB.coursera },
       { name: 'raspberrypi', url: '/raspberrypi', resources: DB.raspberrypi },
     ],
   },
-  {
-    category: 'resources',
-    subcategory: [
-      { name: 'blogs', url: '/blogs', resources: DB.blogs },
-      {
-        name: 'Official Docs',
-        url: '/officialdocs',
-        resources: DB.officialdocs,
-      },
-      { name: 'hosting', url: '/hosting', resources: DB.hosting },
-      { name: 'e-book', url: '/e-book', resources: DB.ebook },
-      { name: 'dsa', url: '/dsa', resources: DB.dsa },
-      { name: 'project ideas', url: '/project-ideas', resources: DB.project },
-    ],
-  },
-  {
-    category: 'youtube',
-    subcategory: [
-      {
-        name: 'web development',
-        url: '/web-development',
-        resources: DB.webDevelopment,
-      },
-      { name: 'CSS', url: '/css', resources: DB.css },
-      {
-        name: 'kubernetes',
-        url: '/kubernetes',
-        resources: DB.Kubernetes,
-      },
-      {
-        name: 'machine learning',
-        url: '/machine-learning',
-        resources: DB.machineLearning,
-      },
-      { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
-      { name: 'Android', url: '/android', resources: DB.android },
-      {
-        name: 'Web3 & Metaverse',
-        url: '/web3-metaverse',
-        resources: DB.web3metaverse,
-      },
-      {
-        name: 'Software Testing',
-        url: '/software-testing',
-        resources: DB.softwareTesting,
-      },
-      {
-        name: 'Computer Science',
-        url: '/computer-science',
-        resources: DB.computerScience,
-      },
-      { name: 'FinTech', url: '/fintech', resources: DB.fintech },
-      {
-        name: 'Game Development',
-        url: '/game-development',
-        resources: DB.gameDevelopment,
-      },
-    ],
-  },
-  {
-    category: 'data-structures',
-    subcategory: [
-      { name: 'DSA Articles', url: '/dsa-articles', resources: DB.dsaArticles },
-      {
-        name: 'DSA Tutorials',
-        url: '/dsa-tutorials',
-        resources: DB.dsaTutorials,
-      },
-      { name: 'DSA Courses', url: '/dsa-courses', resources: DB.dsaCourses },
-    ],
-  },
-  {
-    category: 'competitive-programming',
-    subcategory: [
-      { name: 'Platforms', url: '/cp-platforms', resources: DB.cpPlatforms },
-      { name: 'Tutorials', url: '/cp-tutorials', resources: DB.cpTutorials },
-      { name: 'Helpers', url: '/cp-helpers', resources: DB.cpHelpers },
-    ],
-  },
-  {
-    category: 'Placement-Prep',
-    subcategory: [
-      {
-        name: 'Interview Preparation',
-        url: '/interview-preparation',
-        resources: DB.interviewPreparation,
-      },
-      {
-        name: 'Job Portals',
-        url: '/job-portals',
-        resources: DB.jobPortals,
-      },
-      {
-        name: 'Resume Building',
-        url: '/resume-building',
-        resources: DB.resumeBuilding,
-      },
-      {
-        name: 'Portfolio Building',
-        url: '/portfolio-building',
-        resources: DB.portfolioBuilding,
-      },
-      {
-        name: 'Cover Letters',
-        url: '/cover-letters',
-        resources: DB.coverLetters,
-      },
-      {
-        name: 'Certifications',
-        url: '/certifications',
-        resources: DB.certifications,
-      },
-    ],
-  },
-  {
-    category: 'technical-writing',
-    subcategory: [
-      {
-        name: 'Technical Writing Tools',
-        url: '/technical-writing-tools',
-        resources: DB.technicalWritingTools,
-      },
-    ],
-  },
-  {
-    category: 'BlockChain',
-    subcategory: [
-      {
-        name: 'Smart Contracts',
-        url: '/smartcontracts',
-        resources: DB.smartContracts,
-      },
-      {
-        name: 'Truffle',
-        url: '/truffle',
-        resources: DB.truffle,
-      },
-      {
-        name: 'Hardhat',
-        url: '/hardhat',
-        resources: DB.hardhat,
-      },
-      {
-        name: 'Ethers',
-        url: '/ethers',
-        resources: DB.ethers,
-      },
-    ],
-  },
-  {
-    category: 'other',
-    subcategory: [
-      { name: 'events', url: '/events', resources: DB.events },
-      { name: 'Github', url: '/github', resources: DB.github },
-      { name: 'Git', url: '/git', resources: DB.git },
-      { name: 'Dev Tools', url: '/devtools', resources: DB.devtools },
-      { name: 'Podcasts', url: '/podcasts', resources: DB.podcasts },
-      {
-        name: 'Other Resources',
-        url: '/other-resources',
-        resources: DB.otherResources,
-      },
-      { name: 'Communities', url: '/communities', resources: DB.communities },
-      { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
-      { name: 'Domains', url: '/domains', resources: DB.domains },
-      {
-        name: 'Text Formatting',
-        url: '/text-formatting',
-        resources: DB.textFormatting,
-      },
-    ],
-  },
+  // {
+  //   category: 'youtube',
+  //   subcategory: [
+  //     { name: 'blogs', url: '/blogs', resources: DB.blogs },
+  //     {
+  //       name: 'Official Docs',
+  //       url: '/officialdocs',
+  //       resources: DB.officialdocs,
+  //     },
+  //     { name: 'hosting', url: '/hosting', resources: DB.hosting },
+  //     { name: 'e-book', url: '/e-book', resources: DB.ebook },
+  //     { name: 'dsa', url: '/dsa', resources: DB.dsa },
+  //     { name: 'project ideas', url: '/project-ideas', resources: DB.project },
+  //   ],
+  // },
+  // {
+  //   category: 'youtube',
+  //   subcategory: [
+  //     {
+  //       name: 'web development',
+  //       url: '/web-development',
+  //       resources: DB.webDevelopment,
+  //     },
+  //     { name: 'CSS', url: '/css', resources: DB.css },
+  //     {
+  //       name: 'kubernetes',
+  //       url: '/kubernetes',
+  //       resources: DB.Kubernetes,
+  //     },
+  //     {
+  //       name: 'machine learning',
+  //       url: '/machine-learning',
+  //       resources: DB.machineLearning,
+  //     },
+  //     { name: 'tensorflow', url: '/tensorflow', resources: DB.tensorflow },
+  //     { name: 'Android', url: '/android', resources: DB.android },
+  //     {
+  //       name: 'Web3 & Metaverse',
+  //       url: '/web3-metaverse',
+  //       resources: DB.web3metaverse,
+  //     },
+  //     {
+  //       name: 'Software Testing',
+  //       url: '/software-testing',
+  //       resources: DB.softwareTesting,
+  //     },
+  //     {
+  //       name: 'Computer Science',
+  //       url: '/computer-science',
+  //       resources: DB.computerScience,
+  //     },
+  //     { name: 'FinTech', url: '/fintech', resources: DB.fintech },
+  //     {
+  //       name: 'Game Development',
+  //       url: '/game-development',
+  //       resources: DB.gameDevelopment,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: 'data-structures',
+  //   subcategory: [
+  //     { name: 'DSA Articles', url: '/dsa-articles', resources: DB.dsaArticles },
+  //     {
+  //       name: 'DSA Tutorials',
+  //       url: '/dsa-tutorials',
+  //       resources: DB.dsaTutorials,
+  //     },
+  //     { name: 'DSA Courses', url: '/dsa-courses', resources: DB.dsaCourses },
+  //   ],
+  // },
+  // {
+  //   category: 'competitive-programming',
+  //   subcategory: [
+  //     { name: 'Platforms', url: '/cp-platforms', resources: DB.cpPlatforms },
+  //     { name: 'Tutorials', url: '/cp-tutorials', resources: DB.cpTutorials },
+  //     { name: 'Helpers', url: '/cp-helpers', resources: DB.cpHelpers },
+  //   ],
+  // },
+  // {
+  //   category: 'Placement-Prep',
+  //   subcategory: [
+  //     {
+  //       name: 'Interview Preparation',
+  //       url: '/interview-preparation',
+  //       resources: DB.interviewPreparation,
+  //     },
+  //     {
+  //       name: 'Job Portals',
+  //       url: '/job-portals',
+  //       resources: DB.jobPortals,
+  //     },
+  //     {
+  //       name: 'Resume Building',
+  //       url: '/resume-building',
+  //       resources: DB.resumeBuilding,
+  //     },
+  //     {
+  //       name: 'Portfolio Building',
+  //       url: '/portfolio-building',
+  //       resources: DB.portfolioBuilding,
+  //     },
+  //     {
+  //       name: 'Cover Letters',
+  //       url: '/cover-letters',
+  //       resources: DB.coverLetters,
+  //     },
+  //     {
+  //       name: 'Certifications',
+  //       url: '/certifications',
+  //       resources: DB.certifications,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: 'technical-writing',
+  //   subcategory: [
+  //     {
+  //       name: 'Technical Writing Tools',
+  //       url: '/technical-writing-tools',
+  //       resources: DB.technicalWritingTools,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: 'BlockChain',
+  //   subcategory: [
+  //     {
+  //       name: 'Smart Contracts',
+  //       url: '/smartcontracts',
+  //       resources: DB.smartContracts,
+  //     },
+  //     {
+  //       name: 'Truffle',
+  //       url: '/truffle',
+  //       resources: DB.truffle,
+  //     },
+  //     {
+  //       name: 'Hardhat',
+  //       url: '/hardhat',
+  //       resources: DB.hardhat,
+  //     },
+  //     {
+  //       name: 'Ethers',
+  //       url: '/ethers',
+  //       resources: DB.ethers,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: 'other',
+  //   subcategory: [
+  //     { name: 'events', url: '/events', resources: DB.events },
+  //     { name: 'Github', url: '/github', resources: DB.github },
+  //     { name: 'Git', url: '/git', resources: DB.git },
+  //     { name: 'Dev Tools', url: '/devtools', resources: DB.devtools },
+  //     { name: 'Podcasts', url: '/podcasts', resources: DB.podcasts },
+  //     {
+  //       name: 'Other Resources',
+  //       url: '/other-resources',
+  //       resources: DB.otherResources,
+  //     },
+  //     { name: 'Communities', url: '/communities', resources: DB.communities },
+  //     { name: 'Roadmaps', url: '/roadmaps', resources: DB.roadmaps },
+  //     { name: 'Domains', url: '/domains', resources: DB.domains },
+  //     {
+  //       name: 'Text Formatting',
+  //       url: '/text-formatting',
+  //       resources: DB.textFormatting,
+  //     },
+  //   ],
+  // },
 ]
 
 export const subCategories = sidebarData.flatMap(({ category, subcategory }) =>
