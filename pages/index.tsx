@@ -45,7 +45,9 @@ const SocialLink: React.FC<SocialLinkProps> = ({
         <div>{icon}</div>
         <span className="sm:inline">{title}</span>
       </div>
-      <p className="text-sm sm:text-base text-text-quinary sm:h-24 h-fit lg:h-fit overflow-hidden font-sans text-ellipsis line-clamp-4">{description}</p>
+      <p className="text-sm sm:text-base text-text-quinary sm:h-24 h-fit lg:h-fit overflow-hidden font-sans text-ellipsis line-clamp-4">
+        {description}
+      </p>
     </Link>
   </div>
 )
@@ -64,7 +66,6 @@ const RatingForkComponent: React.FC<RatingForkProps> = ({
   return (
     <div
       className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
-      
     >
       {type === 'star' ? (
         <IoIosStar
@@ -106,7 +107,9 @@ export default function Home() {
   useEffect(() => {
     const getStarForkCount = async () => {
       try {
-        const response = await fetch(`https://api.github.com/repos/rupali-codes/LinksHub`)
+        const response = await fetch(
+          `https://api.github.com/repos/rupali-codes/LinksHub`
+        )
         const data = await response.json()
         setStarCount(data.stargazers_count)
         setForkCount(data.forks)
@@ -131,16 +134,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LinksHub</title>
-        <meta name="title" content="LinksHub" />
+        <title>Accelify</title>
+        <meta name="title" content="Accelify" />
         <meta
           name="description"
-          content="LinksHub is the ultimate hub of ready-to-use tech resources made for and by the community. Whether you are professional or enthusiast, we have what you need to help you grow."
+          content="Accelify is the ultimate hub of ready-to-use tech resources made for and by the community. Whether you are professional or enthusiast, we have what you need to help you grow."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="LinksHub, developers, free resources, tools, software, libraries, frameworks, applications, websites"
+          content="Accelify, developers, free resources, tools, software, libraries, frameworks, applications, websites"
         />
         <meta name="author" content="Rupali Haldiya" />
         <meta name="robots" content="index, follow" />
@@ -151,11 +154,11 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="LinksHub: A hub of ready-to-use tech resources"
+          content="Accelify: A hub of ready-to-use tech resources"
         />
         <meta
           property="og:description"
-          content="LinksHub aims to provide people with access to a wide range of free resources and tools that they can use in their work and projects."
+          content="Accelify aims to provide people with access to a wide range of free resources and tools that they can use in their work and projects."
         />
         <meta
           property="og:image"
@@ -168,11 +171,11 @@ export default function Home() {
         <meta property="twitter:url" content="https://linkshub.dev" />
         <meta
           property="twitter:title"
-          content="LinksHub: A hub of ready-to-use tech resources"
+          content="Accelify: A hub of ready-to-use tech resources"
         />
         <meta
           property="twitter:description"
-          content="LinksHub aims to provide people with access to a wide range of free resources and tools that they can use in their work and projects."
+          content="Accelify aims to provide people with access to a wide range of free resources and tools that they can use in their work and projects."
         />
         <meta
           property="twitter:image"
@@ -207,7 +210,7 @@ export default function Home() {
           {welcome && (
             <>
               <p className="text-md text-text-quinary">
-                Welcome aboard, we&apos;re excited to have you at LinksHub!
+                Welcome aboard, we&apos;re excited to have you at Accelify!
               </p>
               <div
                 className={
@@ -224,11 +227,12 @@ export default function Home() {
                       <Logo />
                     </div>
                     <p className={'my-2 text-base text-text-quinary pt-3'}>
-                      LinksHub aims to provide people access to a wide
-                      range of free resources and tools that they can use to learn and develop their tech skills.
-       These resources include links to free
-                      software, libraries, frameworks, and other tools that can
-                      be used to build and deploy applications, website, and other projects.
+                      Accelify aims to provide people access to a wide range of
+                      free resources and tools that they can use to learn and
+                      develop their tech skills. These resources include links
+                      to free software, libraries, frameworks, and other tools
+                      that can be used to build and deploy applications,
+                      website, and other projects.
                     </p>
                   </div>
                   <div
@@ -277,7 +281,7 @@ export default function Home() {
           {community && (
             <>
               <div className="text-text-quinary">
-                Get involved!  Everyone is welcome!
+                Get involved! Everyone is welcome!
               </div>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
                 <SocialLink
@@ -329,7 +333,9 @@ export default function Home() {
                         className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1rem)] lg:w-[calc(33.33%-1rem)] group"
                       >
                         <div className="border-solid border-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 bg-light-white hover:bg-light-silver flex items-center justify-between rounded-xl sm:h-16 h-fit">
-                          <div className="p-5 truncate ...">{el.category.toUpperCase()}</div>
+                          <div className="p-5 truncate ...">
+                            {el.category.toUpperCase()}
+                          </div>
                           <div>
                             <FaArrowRightLong className="m-4 hidden group-hover:block" />
                           </div>
