@@ -329,7 +329,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
             ))}
         </div>
       )}
-      <div className="bg-white dark:bg-[#293242] flex justify-between flex-col md:flex-row rounded-xl py-6 px-4 my-10">
+      {/* <div className="bg-white dark:bg-[#293242] flex justify-between flex-col md:flex-row rounded-xl py-6 px-4 my-10">
         <div className="flex space-x-4">
           <div className="pl-2 pr-3">
             <FaTrophy className="text-2xl text-[#FBD449]" />{' '}
@@ -368,7 +368,7 @@ const ContributorsPage: FC<{ contributors: Contributor[] }> = ({
             See More
           </button>
         </div>
-      ) : null}
+      ) : null} */}
     </div>
   )
 }
