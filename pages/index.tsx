@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Logo from 'assets/icons/svg/test1.svg'
+import Logo from 'assets/icons/svg/logo.svg'
 import { RxCaretDown, RxCaretRight } from 'react-icons/rx'
 import { IoMdGitBranch, IoIosStar } from 'react-icons/io'
 import {
@@ -223,7 +223,7 @@ export default function Home() {
                   }
                 >
                   <div className={'mr-0 lg:mr-8'}>
-                    <div className="flex justify-center lg:justify-start ">
+                    <div className="flex justify-center lg:justify-start">
                       <Logo />
                     </div>
                     <p className={'my-2 text-base text-text-quinary pt-3'}>

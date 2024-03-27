@@ -99,7 +99,7 @@ export const Header: FC = () => {
 
   return (
     <header className="fixed top-0 left-0 z-30 row-start-1 row-end-2 h-[76px] w-screen flex items-center justify-between px-6 bg-white dark:bg-slate-800 shadow-header dark:shadow-none">
-      <div className="flex gap-4 tall:gap-6">
+      <div className="flex gap-4 tall:gap-6 bg-white dark:bg-slate-300">
         <Link href="/" aria-label="LinksHub Logo">
           <Logo />
         </Link>
