@@ -35,7 +35,7 @@ export interface IData {
 }
 
 export type Category =
-  | 'MAT2001'
+  | 'mat2001'
   | 'AI-ML'
   | 'MGT-2003'
   | 'Applied Maths'
@@ -44,6 +44,7 @@ export type Category =
   | 'Calculus-Laplace'
   | 'Engineering-Physics'
   | 'English'
+  | 'Phy1001'
 // | 'youtube'
 // | 'other'
 // | 'devops'
