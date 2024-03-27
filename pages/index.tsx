@@ -52,49 +52,49 @@ const SocialLink: React.FC<SocialLinkProps> = ({
   </div>
 )
 
-const RatingForkComponent: React.FC<RatingForkProps> = ({
-  type,
-  count,
-  link,
-  iconBgColor,
-  btnBgColor,
-  btnTextColor,
-  btnText,
-}) => {
-  const iconStyle = { backgroundColor: iconBgColor }
+// const RatingForkComponent: React.FC<RatingForkProps> = ({
+//   type,
+//   count,
+//   link,
+//   iconBgColor,
+//   btnBgColor,
+//   btnTextColor,
+//   btnText,
+// }) => {
+//   const iconStyle = { backgroundColor: iconBgColor }
 
-  return (
-    <div
-      className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
-    >
-      {type === 'star' ? (
-        <IoIosStar
-          className={`rounded-full text-black text-3xl p-1`}
-          style={iconStyle} // Add style={iconStyle}
-        />
-      ) : (
-        <IoMdGitBranch
-          className={`rounded-full text-white text-3xl p-1`}
-          style={iconStyle} // Add style={iconStyle}
-        />
-      )}
-      <div className="text-3xl my-1">
-        {count}
-        <span className="text-lg m-1">
-          {type === 'star' ? 'Stars' : 'Forks'}
-        </span>
-      </div>
-      <Link href={link}>
-        <button
-          className={`text-base p-2 w-32 rounded-lg text-center w-full`}
-          style={{ backgroundColor: btnBgColor, color: btnTextColor }}
-        >
-          {btnText}
-        </button>
-      </Link>
-    </div>
-  )
-}
+//   return (
+//     <div
+//       className={`dark:text-white rounded-lg md:w-[160px] text-3xl p-4 dark:bg-[rgba(255,255,255,0.1)] bg-[rgba(0,0,0,0.05)] w-full`}
+//     >
+//       {type === 'star' ? (
+//         <IoIosStar
+//           className={`rounded-full text-black text-3xl p-1`}
+//           style={iconStyle} // Add style={iconStyle}
+//         />
+//       ) : (
+//         <IoMdGitBranch
+//           className={`rounded-full text-white text-3xl p-1`}
+//           style={iconStyle} // Add style={iconStyle}
+//         />
+//       )}
+//       <div className="text-3xl my-1">
+//         {count}
+//         <span className="text-lg m-1">
+//           {type === 'star' ? 'Stars' : 'Forks'}
+//         </span>
+//       </div>
+//       <Link href={link}>
+//         <button
+//           className={`text-base p-2 w-32 rounded-lg text-center w-full`}
+//           style={{ backgroundColor: btnBgColor, color: btnTextColor }}
+//         >
+//           {btnText}
+//         </button>
+//       </Link>
+//     </div>
+//   )
+// }
 
 export default function Home() {
   const [welcome, setWelcome] = useState(true)
@@ -141,13 +141,13 @@ export default function Home() {
           content="Accelify is the ultimate hub of ready-to-use tech resources made for and by the community. Whether you are professional or enthusiast, we have what you need to help you grow."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
+        {/* <meta
           name="keywords"
           content="Accelify, developers, free resources, tools, software, libraries, frameworks, applications, websites"
         />
         <meta name="author" content="Rupali Haldiya" />
         <meta name="robots" content="index, follow" />
-        <meta name="revisit-after" content="7 days" />
+        <meta name="revisit-after" content="7 days" /> */}
 
         {/* Open Graph */}
         <meta property="og:url" content="https://linkshub.dev" />
@@ -167,7 +167,7 @@ export default function Home() {
         <meta property="og:site_name" content="LinksHub" />
 
         {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
+        {/* <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://linkshub.dev" />
         <meta
           property="twitter:title"
@@ -190,7 +190,7 @@ export default function Home() {
         <meta
           property="discord:invite"
           content="https://discord.com/invite/NvK67YnJX5"
-        />
+        /> */}
 
         <link rel="icon" href="/new-icon.png" className="rounded-full" />
       </Head>
@@ -227,15 +227,10 @@ export default function Home() {
                       <Logo />
                     </div>
                     <p className={'my-2 text-base text-text-quinary pt-3'}>
-                      Accelify aims to provide people access to a wide range of
-                      free resources and tools that they can use to learn and
-                      develop their tech skills. These resources include links
-                      to free software, libraries, frameworks, and other tools
-                      that can be used to build and deploy applications,
-                      website, and other projects.
+                      Accelify aims to revolutionize the college experience by offering a comprehensive academic resource hub. Our platform provides students with curated study materials, interactive learning modules, and collaborative tools, all designed to enhance academic performance and foster a thriving learning community. Whether preparing for exams or delving into complex course content, Accelify empowers students to excel in their educational journey and achieve their full potential.
                     </p>
                   </div>
-                  <div
+                  {/* <div
                     className={
                       'flex sm:flex-row flex-col items-center justify-center gap-10 mt-4 lg:mt-0 w-full '
                     }
@@ -261,7 +256,7 @@ export default function Home() {
                       btnTextColor="white"
                       btnText="Contribute now"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </>
@@ -269,7 +264,7 @@ export default function Home() {
         </div>
         <div>
           <div className="flex items-center justify-between mt-4">
-            <div className="text-2xl dark:text-text-tertiary">Community</div>
+            
             <div className="hidden sm:flex" onClick={handleCommunity}>
               {community ? (
                 <RxCaretDown size={50} />
@@ -278,7 +273,7 @@ export default function Home() {
               )}
             </div>
           </div>
-          {community && (
+          {/* {community && (
             <>
               <div className="text-text-quinary">
                 Get involved! Everyone is welcome!
@@ -304,7 +299,7 @@ export default function Home() {
                 />
               </div>
             </>
-          )}
+          )} */}
         </div>
         <div>
           <div className="flex items-center justify-between mt-4">
@@ -354,23 +349,14 @@ export default function Home() {
                 <StarIcon />
               </div>
               <h1 className="text-xl dark:text-text-tertiary">
-                More awesome resources are coming soon!
+                More academic resources are coming soon!
               </h1>
             </div>
             <div className="lg:w-full flex flex-col lg:flex-row items-center justify-between mt-6 sm:mt-0">
               <div className="text-text-quinary pt-1 md:pl-4 lg:mx-8 text-md">
-                Discover valuable resources without extensive research. We have
-                diligently curated a wealth of materials to make your journey
-                smoother. Show us some love and support our efforts in
-                simplifying your path to success.
+              Exciting news! Accelify is gearing up to introduce even more amazing resources soon. Get ready for an enhanced learning experience with new tools and support tailored to your academic needs. Stay tuned for updates as we continue to innovate and empower your educational journey..
               </div>
-              <Button
-                label="Sponsor"
-                icon={<HeartIcon />}
-                variant="pale"
-                link="https://github.com/sponsors/rupali-codes"
-                className="w-full sm:w-auto mt-4 mt-4 lg:mt-0 md:ml-4 md:mr-auto"
-              />
+              
             </div>
           </div>
         </div>

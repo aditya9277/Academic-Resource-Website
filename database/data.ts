@@ -6,209 +6,119 @@ export const database: IData[][] = Object.values(DB).map((item: IDBData[]) =>
 )
 
 export const sidebarData: ISidebar[] = [
-  {
-    category: 'MAT2001',
-    subcategory: [
-      { name: 'next js', url: '/next-js', resources: DB.next },
-      {
-        name: '3D libraries',
-        url: '/3d-libraries',
-        resources: DB._3dLibraries,
-      },
-      { name: 'images', url: '/images', resources: DB.images },
-      { name: 'fonts', url: '/fonts', resources: DB.fonts },
-      { name: 'colors', url: '/colors', resources: DB.colors },
-      { name: 'css games', url: '/css-games', resources: DB.cssGames },
-      { name: 'react', url: '/react', resources: DB.react },
-      {
-        name: 'illustrations',
-        url: '/illustrations',
-        resources: DB.illustrations,
-      },
-      { name: 'animations', url: '/animations', resources: DB.animations },
-      { name: 'icons', url: '/icons', resources: DB.icons },
-      {
-        name: 'design inspiration',
-        url: '/design-inspiration',
-        resources: DB.designInspirations,
-      },
-      {
-        name: 'themes & templates',
-        url: '/themes-templates',
-        resources: DB.themesTemplates,
-      },
-      {
-        name: 'UI Generators',
-        url: '/ui-generators',
-        resources: DB.uiGenerators,
-      },
-      {
-        name: 'online code editors',
-        url: '/online-code-editors',
-        resources: DB.onlineCodeEditors,
-      },
-      {
-        name: 'accessibility',
-        url: '/accessibility',
-        resources: DB.accessibility,
-      },
-      {
-        name: 'ui Libraries',
-        url: '/ui-libraries',
-        resources: DB.uilibraries,
-      },
-      { name: 'angular', url: '/angular', resources: DB.angular },
-      {
-        name: 'js-Chart Libraries',
-        url: '/js-chart-libraries',
-        resources: DB.jsChartLibraries,
-      },
-    ],
-  },
+  // {
+  //   category:'Phy1001',
+  //   subcategory:[
+  //     {
+  //       name: 'PYQ', url:'/phy1001', resources:DB.phy1001
+  //     }
+  //   ],
+  // },
+  // {
+  //   category: 'mat2001',
+  //   subcategory: [
+  //     {
+  //       name: 'Previous Year Papers',
+  //       url: '/3d-libraries',
+  //       resources: DB._3dLibraries,
+  //     },
+  //     { name: 'Notes', url: '/notes1', resources: DB.notes1 },
+  //     { name: 'Tutorials', url: '/fonts', resources: DB.fonts },
+  //     { name: 'Tuto', url: '/tuto', resources: DB.tuto },
+  //     { name: 'Assignments', url: '/colors', resources: DB.colors }
+      
+  //   ],
+  // },
   {
     category: 'AI-ML',
     subcategory: [
       {
-        name: 'architecture',
+        name: 'Tutorials',
         url: '/architecture',
         resources: DB.architecture,
       },
-      { name: 'validation', url: '/validation', resources: DB.validation },
-      { name: 'security', url: '/security', resources: DB.security },
+      { name: 'Assignments', url: '/validation', resources: DB.validation },
       {
-        name: 'authentication',
+        name: 'Previous Year Papers',
         url: '/authentication',
         resources: DB.authentication,
       },
       {
-        name: 'email providers',
+        name: 'Youtube Links',
         url: '/email-providers',
         resources: DB.emailProviders,
-      },
-      { name: 'caching', url: '/caching', resources: DB.caching },
-      { name: 'testing', url: '/testing', resources: DB.testing },
-      {
-        name: 'system design',
-        url: '/system-design',
-        resources: DB.systemDesign,
-      },
-      { name: 'database', url: '/database', resources: DB.database },
-      {
-        name: 'APIs',
-        url: '/api',
-        resources: DB.api,
       },
     ],
   },
   {
     category: 'MGT-2003',
     subcategory: [
-      { name: 'JavaScript', url: '/javascript', resources: DB.javascript },
-      { name: 'Python', url: '/python', resources: DB.python },
-      { name: 'Csharp (C#)', url: '/csharp', resources: DB.csharp },
-      { name: 'Go', url: '/golang', resources: DB.golang },
-      { name: 'TypeScript', url: '/typescript', resources: DB.typescript },
-      { name: 'Ruby', url: '/ruby', resources: DB.ruby },
-      {
-        name: 'C Programming',
-        url: '/c-programming',
-        resources: DB.CProgramming,
-      },
-      { name: 'C++ Programming', url: '/cpp', resources: DB.cpp },
-      { name: 'Java', url: '/java', resources: DB.java },
-      { name: 'Kotlin', url: '/kotlin', resources: DB.kotlin },
-      { name: 'Rust', url: '/rust', resources: DB.Rust },
-      { name: 'Dart', url: '/dart', resources: DB.dart },
-      { name: 'Solidity', url: '/solidity', resources: DB.solidity },
-      { name: 'Swift', url: '/swift', resources: DB.swift },
+      { name: 'Previous Year Papers', url: '/javascript', resources: DB.javascript },
+      { name: 'Assignments', url: '/python', resources: DB.python },
+      { name: 'Tutorials', url: '/csharp', resources: DB.csharp },
+      { name: 'Youtube Links', url: '/golang', resources: DB.golang },
     ],
   },
   {
     category: 'Applied Maths',
     subcategory: [
       {
-        name: 'Articles',
+        name: 'Previous Year Papers',
         url: '/articles',
         resources: DB.openSourceArticles,
       },
       {
-        name: 'Programs',
+        name: 'Assignemnts',
         url: '/os-programs',
         resources: DB.openSourcePrograms,
       },
       {
-        name: 'Projects',
+        name: 'Tutorials',
         url: '/projects',
         resources: DB.openSourceProjects,
       },
       {
-        name: 'Tools',
+        name: 'Youtube Links',
         url: '/tools',
         resources: DB.openSourceTools,
-      },
-      {
-        name: 'Tutorials',
-        url: '/tutorials',
-        resources: DB.openSourceTutorials,
       },
     ],
   },
   {
     category: 'EVS',
     subcategory: [
-      { name: 'CI/CD', url: '/cicd', resources: DB.cicd },
+      { name: 'Previous Year Papers', url: '/cicd', resources: DB.cicd },
       {
-        name: 'DevOps Life Cycle',
+        name: 'Youtube Links',
         url: '/devops-life-cycle',
         resources: DB.devopsLifecycle,
       },
       {
-        name: 'DevOps Methodologies',
+        name: 'Tutorials',
         url: '/devops-methodologies',
         resources: DB.devopsMethodologies,
       },
-      { name: 'docker', url: '/docker', resources: DB.docker },
-      { name: 'jenkins', url: '/jenkins', resources: DB.jenkins },
-      {
-        name: 'kubernetes',
-        url: '/kubernetes',
-        resources: DB.kubernetes,
-      },
-      {
-        name: 'microservices',
-        url: '/microservices',
-        resources: DB.microservices,
-      },
-      {
-        name: 'IaC',
-        url: '/iac',
-        resources: DB.iac,
-      },
+      { name: 'Assignments', url: '/docker', resources: DB.docker },
     ],
   },
   {
     category: 'Intro-to-programming',
     subcategory: [
       {
-        name: 'artificial intelligence',
+        name: 'Previous Year Papers',
         url: '/artificial-intelligence',
         resources: DB.artificialIntelligence,
       },
       {
-        name: 'machine learning',
+        name: 'Youtube Links',
         url: '/machine-learning',
         resources: DB.machineLearning,
       },
-      { name: 'data science', url: '/data-science', resources: DB.dataScience },
+      { name: 'Tutorials', url: '/data-science', resources: DB.dataScience },
       {
-        name: 'deep learning',
+        name: 'Assignments',
         url: '/deep-learning',
         resources: DB.deepLearning,
-      },
-      {
-        name: 'NLP',
-        url: '/natural-language-processing',
-        resources: DB.nlp,
       },
     ],
   },
@@ -216,22 +126,22 @@ export const sidebarData: ISidebar[] = [
     category: 'Calculus-Laplace',
     subcategory: [
       {
-        name: 'Offensive security',
+        name: 'Assignments',
         url: '/offensive-security',
         resources: DB.offensive_security,
       },
       {
-        name: 'Defensive Security',
+        name: 'Tutorials',
         url: '/defensive-security',
         resources: DB.defensive_security,
       },
       {
-        name: 'Malware Analysis',
+        name: 'Previous Year Papers',
         url: '/malware-analysis',
         resources: DB.malware_analysis,
       },
       {
-        name: 'Web Security',
+        name: 'Youtube Links',
         url: '/web-security',
         resources: DB.web_security,
       },
@@ -241,39 +151,36 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'Engineering-Physics',
     subcategory: [
-      { name: 'google cloud', url: '/gcp', resources: DB.gcp },
+      { name: 'Tutorials', url: '/gcp', resources: DB.gcp },
       {
-        name: 'AWS cloud',
+        name: 'Assignments',
         url: '/aws',
         resources: DB.aws,
       },
-      { name: 'Microsoft cloud', url: '/azure', resources: DB.azure },
-      { name: 'Oracle cloud', url: '/oracle', resources: DB.oracle },
-      { name: 'IBM cloud', url: '/ibm', resources: DB.ibm },
-    ],
-  },
-  {
-    category: 'English',
-    subcategory: [
-      { name: 'coursera', url: '/coursera', resources: DB.coursera },
-      { name: 'raspberrypi', url: '/raspberrypi', resources: DB.raspberrypi },
+      { name: 'Previous Year Papers', url: '/azure', resources: DB.azure },
+      { name: 'Youtube Links', url: '/oracle', resources: DB.oracle },
     ],
   },
   // {
-  //   category: 'youtube',
+  //   category: 'English',
   //   subcategory: [
-  //     { name: 'blogs', url: '/blogs', resources: DB.blogs },
-  //     {
-  //       name: 'Official Docs',
-  //       url: '/officialdocs',
-  //       resources: DB.officialdocs,
-  //     },
-  //     { name: 'hosting', url: '/hosting', resources: DB.hosting },
-  //     { name: 'e-book', url: '/e-book', resources: DB.ebook },
-  //     { name: 'dsa', url: '/dsa', resources: DB.dsa },
-  //     { name: 'project ideas', url: '/project-ideas', resources: DB.project },
+  //     { name: 'coursera', url: '/coursera', resources: DB.coursera },
+  //     { name: 'raspberrypi', url: '/raspberrypi', resources: DB.raspberrypi },
   //   ],
   // },
+  {
+    category: 'English',
+    subcategory: [
+      { name: 'Assignments', url: '/blogs', resources: DB.blogs },
+      {
+        name: 'Tutorials',
+        url: '/officialdocs',
+        resources: DB.officialdocs,
+      },
+      { name: 'Previous Year Papers', url: '/hosting', resources: DB.hosting },
+      { name: 'Youtube Links', url: '/e-book', resources: DB.ebook },
+    ],
+  },
   // {
   //   category: 'youtube',
   //   subcategory: [

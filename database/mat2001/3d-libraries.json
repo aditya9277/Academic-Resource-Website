@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Previous Year Papers",
+    "description": "The world's most popular JavaScript framework for displaying 3D content on the web. With three.js, you no longer need a fancy gaming PC console or download a special application to display photorealistic 3D graphics. All you need is a smartphone and a web browser.",
+    "url": "https://threejs.org/",
+    "category": "frontend",
+    "subcategory": "3d-libraries"
+  },
+  {
+    "name": "Youtube Links",
+    "description": "One of the world's leading WebGL-based graphics engines. From a new visual scene inspector, best-in-class physically-based rendering, countless performance optimizations, and much more, Babylon.js brings powerful, beautiful, simple, and open 3D to everyone on the web.",
+    "url": "https://www.babylonjs.com/",
+    "category": "frontend",
+    "subcategory": "3d-libraries"
+  },
+  {
+    "name": "Tutorials ",
+    "description": "An open-source web framework for building virtual reality (VR) experiences. It is based on top of HTML, making it simple to get started. But it is not just a 3D scene graph or a markup language; the core is a powerful entity-component framework that provides a declarative, extensible, and composable structure to three.js.",
+    "url": "https://aframe.io/",
+    "category": "frontend",
+    "subcategory": "3d-libraries"
+  },
+  {
+    "name": "Assignments",
+    "description": "The world's easiest to use WebGL Game Engine. It's free, it's open source and it's backed by amazing developer tools.",
+    "url": "https://playcanvas.com/",
+    "category": "frontend",
+    "subcategory": "3d-libraries"
+  }
+]
