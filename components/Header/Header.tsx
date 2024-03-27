@@ -65,7 +65,7 @@ export const Header: FC = () => {
       inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
       activeIcon: <TeamActiveIcon className={activeIconCls} />,
       label: 'Our Team',
-      href: '/contributors',
+      href: '/',
       isDisabled: false,
     },
   ]
@@ -74,7 +74,7 @@ export const Header: FC = () => {
     navLinks.map(({ inActiveIcon, activeIcon, label, href }, i) => {
       const checkRoute = (val: string) => router.asPath.startsWith(val)
 
-      const isHomeActive = !checkRoute('/saved') && !checkRoute('/contributors')
+      const isHomeActive = !checkRoute('/saved') && !checkRoute('/')
       const isUrlMatched = checkRoute(href)
       const isActive = label === 'Home' ? isHomeActive : isUrlMatched
 
