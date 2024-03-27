@@ -113,13 +113,13 @@ export const Header: FC = () => {
           <ThemeToggler />
         </div>
 
-        <Button
+        {/* <Button
           label="Sponsor"
           icon={<HeartIcon />}
           variant="pale"
           link="https://github.com/sponsors/rupali-codes"
           className="hidden sm:flex"
-        />
+        /> */}
       </div>
     </header>
   )
