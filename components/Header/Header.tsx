@@ -106,8 +106,13 @@ export const Header: FC = () => {
           <Logo />
         </Link>
       </div>
+<<<<<<< HEAD
       <div className="font-bold text-4xl ">
         <h1>Accelify 🚀</h1>
+=======
+      <div className="flex items-center justify-center text-center p-2 font-bold text-4xl">
+        <h1>Accelify &nbsp;</h1>
+>>>>>>> 6de4de47fef5bbc4bb3a397cbc0d7fabdfccb0eb
       </div>
 
       <div className="flex items-center justify-center gap-6">
