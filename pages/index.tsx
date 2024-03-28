@@ -223,11 +223,19 @@ export default function Home() {
                   }
                 >
                   <div className={'mr-0 lg:mr-8'}>
-                    <div className="flex justify-center lg:justify-start">
-                      <Logo />
+                    <div className="flex justify-center lg:justify-start h-20px ">
+                      <StarIcon />
                     </div>
                     <p className={'my-2 text-base text-text-quinary pt-3'}>
-                      Accelify aims to revolutionize the college experience by offering a comprehensive academic resource hub. Our platform provides students with curated study materials, interactive learning modules, and collaborative tools, all designed to enhance academic performance and foster a thriving learning community. Whether preparing for exams or delving into complex course content, Accelify empowers students to excel in their educational journey and achieve their full potential.
+                      Accelify aims to revolutionize the college experience by
+                      offering a comprehensive academic resource hub. Our
+                      platform provides students with curated study materials,
+                      interactive learning modules, and collaborative tools, all
+                      designed to enhance academic performance and foster a
+                      thriving learning community. Whether preparing for exams
+                      or delving into complex course content, Accelify empowers
+                      students to excel in their educational journey and achieve
+                      their full potential.
                     </p>
                   </div>
                   {/* <div
@@ -264,7 +272,6 @@ export default function Home() {
         </div>
         <div>
           <div className="flex items-center justify-between mt-4">
-            
             <div className="hidden sm:flex" onClick={handleCommunity}>
               {community ? (
                 <RxCaretDown size={50} />
@@ -354,9 +361,12 @@ export default function Home() {
             </div>
             <div className="lg:w-full flex flex-col lg:flex-row items-center justify-between mt-6 sm:mt-0">
               <div className="text-text-quinary pt-1 md:pl-4 lg:mx-8 text-md">
-              Exciting news! Accelify is gearing up to introduce even more amazing resources soon. Get ready for an enhanced learning experience with new tools and support tailored to your academic needs. Stay tuned for updates as we continue to innovate and empower your educational journey..
+                Exciting news! Accelify is gearing up to introduce even more
+                amazing resources soon. Get ready for an enhanced learning
+                experience with new tools and support tailored to your academic
+                needs. Stay tuned for updates as we continue to innovate and
+                empower your educational journey..
               </div>
-              
             </div>
           </div>
         </div>
