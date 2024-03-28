@@ -67,7 +67,7 @@ export const Header: FC = () => {
       inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
       activeIcon: <TeamActiveIcon className={activeIconCls} />,
       label: 'Our Team',
-      href: '/',
+      href: 'https://github.com/aditya9277/Academic-Resource-Website',
       isDisabled: false,
     },
   ]
