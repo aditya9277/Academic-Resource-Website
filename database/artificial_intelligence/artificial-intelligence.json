@@ -1,16 +1,9 @@
 [
   {
-    "name": "",
-    "description": "",
-    "url": "",
-    "category": "",
-    "subcategory": ""
-  },
-  {
-    "name": "test",
-    "description": "test",
-    "url": "https://google.com/",
-    "category": "ai",
-    "subcategory": "artificial-intelligence"
+  "name": "Test",
+  "description": "Backend Links to be added",
+  "url": "https://google.com",
+  "category": "backend",
+  "subcategory": "artificial-intelligence"
   }
 ]
