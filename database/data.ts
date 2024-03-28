@@ -30,7 +30,7 @@ export const sidebarData: ISidebar[] = [
   //   ],
   // },
   {
-    category: 'AI-ML',
+    category: 'CSA2001: AI-ML',
     subcategory: [
       {
         name: 'Tutorials',
