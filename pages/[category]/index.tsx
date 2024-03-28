@@ -70,7 +70,7 @@ const CategoryPage = () => {
                   </Link>
                 ))}
                 <Link
-                  href={`https://github.com/aditya9277/Academic-Resource-Website`}
+                  href={`https://github.com/Romit77/Academic-Resource-Website`}
                   aria-label={`Add new subcategory issue template link`}
                   target="_blank"
                   className="flex gap-x-2 border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-secondary px-3 py-1 hover:border-dashed hover:text-dark-primary shadow-lg lg:max-w-xs px-4 py-4"
