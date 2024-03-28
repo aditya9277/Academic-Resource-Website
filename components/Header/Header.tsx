@@ -106,12 +106,12 @@ export const Header: FC = () => {
           <Logo />
         </Link>
       </div>
-      <div className="flex items-center justify-center font-bold text-4xl">
-        <h1>Accelify &nbsp;</h1>
+      <div className="font-bold text-4xl ">
+        <h1>Accelify 🚀</h1>
       </div>
 
       <div className="flex items-center justify-center gap-6">
-        <nav className="w-full flex md:block hidden">
+        <nav className="w-full  md:block hidden">
           <ul className="w-full flex gap-0.5 tall:gap-1">{renderLinks()}</ul>
         </nav>
         <div className="flex items-center justify-center gap-[14px]">
