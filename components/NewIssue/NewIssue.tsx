@@ -7,7 +7,7 @@ const NewIssue: FC = () => {
       <span>Be the first to add by creating a GitHub issue </span>
       <Link
         className="dark:text-theme-primary text-theme-secondary underline"
-        href="https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=add+link&template=add_link.yml&title=%5BAdd%5D+%3Cname%3E"
+        href="https://github.com/Romit77/Academic-Resource-Website"
         target="_blank"
         aria-label="Page to create new Issue"
       >
