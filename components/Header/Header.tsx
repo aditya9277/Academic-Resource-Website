@@ -12,10 +12,12 @@ import Logo from 'assets/icons/svg/logo.svg'
 // import LinkedinIcon from 'assets/icons/svg/linkedin.svg'
 // import XIcon from 'assets/icons/svg/x.svg'
 import HeartIcon from 'assets/icons/svg/heart.svg'
+import moon from 'assets/icons/svg/moon.svg'
 // import SaveInActiveIcon from 'assets/icons/svg/nav/save-inactive.svg'
 // import SaveActiveIcon from 'assets/icons/svg/nav/save-active.svg'
 import TeamInActiveIcon from 'assets/icons/svg/nav/team-inactive.svg'
 import TeamActiveIcon from 'assets/icons/svg/nav/team-active.svg'
+import StarIcon from 'assets/icons/StarIcon'
 
 export const Header: FC = () => {
   const router = useRouter()
@@ -103,6 +105,9 @@ export const Header: FC = () => {
         <Link href="/" aria-label="LinksHub Logo">
           <Logo />
         </Link>
+      </div>
+      <div className="flex items-center justify-center font-bold text-4xl">
+        <h1>Accelify &nbsp;</h1>
       </div>
 
       <div className="flex items-center justify-center gap-6">
