@@ -1,4 +1,4 @@
-# LinksHub Contributing Guidelines
+# Accelify Contributing Guidelines
 
 Thank you for taking the time to contribute to our project. Please take a moment to read the following guidelines before contributing:
 
@@ -21,50 +21,52 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 ---
 
-## How to Contribute 🤔
+<!-- ## How to Contribute 🤔
 
-To get started, look at the existing [**Issues**](https://github.com/rupali-codes/LinksHub/issues) or [**create a new issue**](https://github.com/rupali-codes/LinksHub/issues/new/choose)!
+To get started, look at the existing [**Issues**](https://github.com/rupali-codes/LinksHub/issues) or [**create a new issue**](https://github.com/rupali-codes/LinksHub/issues/new/choose)! -->
 
 ### Setup guidelines 🪜
-Follow these steps to setup LinksHub on your local machine
 
-1. [Fork](https://github.com/rupali-codes/LinksHub/fork) the project
-2. Clone the project to run on your local machine using the following command:
+Follow these steps to setup # Accelify Contributing Guidelines
+on your local machine
 
-   ```sh
-   git clone https://github.com/<your_github_username>/LinksHub.git
-   ```
+1.  Fork the project
+2.  Clone the project to run on your local machine using the following command:
 
-3. Get into the root directory
+    ```sh
+    git clone https://github.com/<your_github_username>/Accelify.git
+    ```
 
-   ```sh
-   cd LinksHub
-   ```
+3.  Get into the root directory
 
-4. Install all dependencies by running
+    ```sh
+    cd Accelify
+    ```
 
-   ```sh
-   pnpm install
-   ```
+4.  Install all dependencies by running
 
-5. Create your branch
+    ```sh
+    pnpm install
+    ```
 
-   ```sh
-   git checkout -b <your_branch_name>
-   ```
+5.  Create your branch
 
-6. Run and view the application on localhost
+    ```sh
+    git checkout -b <your_branch_name>
+    ```
 
-   ```sh
-   pnpm run dev
-   ```
+6.  Run and view the application on localhost
+
+    ```sh
+    pnpm run dev
+    ```
 
 > **P.S**: If you have `docker` installed in your system, you can follow these steps to set up the environment:
 >
 > 1. After forking and cloning the repo(as mentioned above), get into the project directory:
 >
 > ```bash
-> cd LinksHub/
+> cd Accelify/
 > ```
 >
 > 2. Start the docker container with:
@@ -74,27 +76,29 @@ Follow these steps to setup LinksHub on your local machine
 > ```
 >
 > 3. Now start adding your changes.
-> **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
+>    **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.
 
-7. Make your changes before staging them.
+7.  Make your changes before staging them.
 
-8. Stage your changes
+8.  Stage your changes
 
-   ```sh
-   git add <filename>
-   ```
+    ```sh
+    git add <filename>
+    ```
 
-9. Commit your changes
+9.  Commit your changes
 
-   ```sh
-   git commit -m "<your-commit-message>"
-   ```
+    ```sh
+    git commit -m "<your-commit-message>"
+    ```
 
 10. Push your changes to your branch
 
-    ```sh
-    git push origin "<your_branch_name>"
-    ```
+        ```sh
+        git push origin "<your_branch_name>"
+        ```
+
+    Accelify
 
 11. Create a [PULL REQUEST](https://github.com/rupali-codes/linkshub/compare) 💣
 
@@ -139,9 +143,9 @@ Follow these steps to setup LinksHub on your local machine
 
   ```ts
   //category
-   subcategory name: 
+   subcategory name:
    `description of subcategory`,
-   ```
+  ```
 
 > [!NOTE]  
 > It's essential to add a description when submitting a pull request to add a subcategory to merge it in the codebase.
@@ -194,7 +198,7 @@ When adding _YouTube_ channel links, please specify _the language_ of the channe
 ---
 
 ### Adding and Updating Category Description 📝
->
+
 > ✨ You can also create [issue(s)](https://github.com/rupali-codes/LinksHub/issues/new/choose) to suggest new descriptions. The maintainers will review them and then assign them.
 
 #### 🌟Follow these steps to add your links to the Hub
@@ -306,8 +310,8 @@ git commit -m "feat(auth): Implement user signup process (#789)"
 ### Levels
 
 We came up with this chart so you can gauge the issue's difficulty and pick ones that fit within your skillset:
-| Points              | Contribution                                                                |
+| Points | Contribution |
 |---------------------|-----------------------------------------------------------------------------|
-| `priority: low`:    | Addition of new links/categories or doing any small task (e.g fixing typos) |
-| `priority: medium`: | Modifying an existing feature                                               |
-| `priority: high`:   | Making completely new feature                                               |
+| `priority: low`: | Addition of new links/categories or doing any small task (e.g fixing typos) |
+| `priority: medium`: | Modifying an existing feature |
+| `priority: high`: | Making completely new feature |
