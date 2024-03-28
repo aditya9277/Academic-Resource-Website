@@ -51,7 +51,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'MGT-2003',
+    category: 'MGT2003: TECH. ENTERPENEURSHIP',
     subcategory: [
       { name: 'Previous Year Papers', url: '/javascript', resources: DB.javascript },
       { name: 'Assignments', url: '/python', resources: DB.python },
@@ -60,7 +60,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'Applied Maths',
+    category: 'MAT2003: Applied Maths',
     subcategory: [
       {
         name: 'Previous Year Papers',
@@ -85,7 +85,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'EVS',
+    category: 'CHY2001: EVS',
     subcategory: [
       { name: 'Previous Year Papers', url: '/cicd', resources: DB.cicd },
       {
@@ -102,7 +102,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'Intro-to-programming',
+    category: 'CSE1021: Intro-to-programming',
     subcategory: [
       {
         name: 'Previous Year Papers',
@@ -123,7 +123,7 @@ export const sidebarData: ISidebar[] = [
     ],
   },
   {
-    category: 'Calculus-Laplace',
+    category: 'MAT2001: Calculus-Laplace',
     subcategory: [
       {
         name: 'Assignments',
@@ -149,7 +149,7 @@ export const sidebarData: ISidebar[] = [
   },
 
   {
-    category: 'Engineering-Physics',
+    category: 'PHY1001: Engineering-Physics',
     subcategory: [
       { name: 'Tutorials', url: '/gcp', resources: DB.gcp },
       {
@@ -169,7 +169,7 @@ export const sidebarData: ISidebar[] = [
   //   ],
   // },
   {
-    category: 'English',
+    category: 'ENG1004: English',
     subcategory: [
       { name: 'Assignments', url: '/blogs', resources: DB.blogs },
       {
