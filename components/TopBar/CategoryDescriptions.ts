@@ -24,7 +24,7 @@ const categoryDescriptions: CategoryDescriptions = {
   notes:
     'Images are the visual representations of objects or concepts. They can be used to convey information in a simple and easy-to-understand way.',
   'online-code-editor':
-    'Online code editors are web-based tools that allow you to write and test code in your browser. They are useful for quickly testing out code snippets or for working on small projects.',
+    'Online code editors are web-based tools that allow you to write and  code in your browser. They are useful for quickly ing out code snippets or for working on small projects.',
   react:
     'React is a JavaScript library for building user interfaces. It was developed by Facebook and is used by many popular websites such as Netflix, Airbnb, and Instagram. React allows developers to create reusable UI components and makes it easy to manage the state of an application.',
   'themes-templates':
@@ -47,20 +47,19 @@ const categoryDescriptions: CategoryDescriptions = {
     'Angular is a popular open-source web application framework similar to react developed and maintained by Google. ',
   //backend
   api: 'Interfaces that allow different software applications to communicate and share data with one another.',
-  architecture: 'test',
-  authentication: 'test',
+  architecture: '',
+  authentication: '',
   caching:
     'Caching is the process of storing frequently accessed data in a cache so that it can be quickly retrieved when needed. Caching can improve the performance of applications by reducing the amount of time it takes to retrieve data from a database or other data source.',
   database:
     'A database is an organized collection of data that can be easily accessed, managed, and updated. Databases are used to store and manage data for various applications such as websites, mobile apps, and enterprise systems.',
-  'email-providers': 'test',
+  'email-providers': '',
   security:
     'Security is the practice of protecting systems, networks, and data from unauthorized access, use, disclosure, disruption, modification, or destruction.',
   'system-design':
     'System design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements.',
-  testing:
-    'Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
-  validation: 'test',
+  ing: 'ing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
+  validation: '',
 
   //languages
   'c-programming':
@@ -71,10 +70,10 @@ const categoryDescriptions: CategoryDescriptions = {
     'Kotlin is a modern, statically-typed programming language that seamlessly interoperates with Java, making it a popular choice for Android app development. Known for its concise syntax and enhanced safety features, Kotlin offers nullable types and expressive constructs to streamline development processes.',
   java: 'Java is a widely-used, object-oriented programming language known for its "write once, run anywhere" philosophy, enabling developers to create platform-independent applications. It provides a robust standard library, automatic memory management through garbage collection, and a strong emphasis on safety and portability in various domains, from web development to enterprise applications.',
   rust: 'Rust is a systems programming language designed for safety and performance, featuring a strong focus on memory safety without sacrificing low-level control. Its ownership and borrowing system ensures prevention of common programming errors like null pointer dereferences, making it suitable for tasks ranging from system-level programming to building web services.',
-  csharp: 'test',
-  golang: 'test',
-  javascript: 'test',
-  python: 'test',
+  csharp: '',
+  golang: '',
+  javascript: '',
+  python: '',
   typescript:
     ' TypeScript is a statically typed language that supports object-oriented and functional programming styles, used for developing web applications, mobile applications, and desktop applications.',
   solidity:
@@ -83,17 +82,17 @@ const categoryDescriptions: CategoryDescriptions = {
     'Swift is a powerful and intuitive programming language developed by Apple. It is used to create apps for iOS, macOS, watchOS, and so on. Swift code is concise yet expressive (easier to understand and write).',
 
   // Open-source
-  articles: 'test',
-  projects: 'test',
-  tools: 'test',
+  articles: '',
+  projects: '',
+  tools: '',
   tutorials:
     'Tutorials helps you to learn-by-watching. It contains the list most helping tutorials on open-source.',
-  'os-programs': 'test',
+  'os-programs': '',
   //devops
-  cicd: 'test',
-  'devops-life-cycle': 'test',
-  'devops-methodologies': 'test',
-  docker: 'test',
+  cicd: '',
+  'devops-life-cycle': '',
+  'devops-methodologies': '',
+  docker: '',
   jenkins:
     'As an extensible automation server, Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.',
   kubernetes:
@@ -103,18 +102,18 @@ const categoryDescriptions: CategoryDescriptions = {
   iac: 'Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.',
 
   // AI
-  'artificial-intelligence': 'test',
-  'data-science': 'test',
-  'deep-learning': 'test',
-  'machine-learning': 'test',
+  'artificial-intelligence': '',
+  'data-science': '',
+  'deep-learning': '',
+  'machine-learning': '',
   'natural-language-processing':
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
   // cyber-security
-  'offensive-security': 'test',
-  'defensive-security': 'test',
-  'malware-analysis': 'test',
-  'web-security': 'test',
+  'offensive-security': '',
+  'defensive-security': '',
+  'malware-analysis': '',
+  'web-security': '',
 
   //resources
   blogs: '',
@@ -138,13 +137,13 @@ const categoryDescriptions: CategoryDescriptions = {
   fintech:
     'It is a catch-all term for technology used to augment, streamline, digitize or disrupt traditional financial services. Fintech refers to software, algorithms, and applications for both desktop and mobile.',
   'game-development':
-    'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, testing and marketing. ',
+    'Game development is the process of creating games for various platforms. It involves different stages and aspects, such as design, development, release, storyboarding, writing, audio, art, coding, music, animation, modelling, ing and marketing. ',
   'machine-learning-yt':
     'Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. ',
   tensorflow:
     'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
-  'software-testing':
-    'Testing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B testing to test different versions of their website to see which version performs better.',
+  'software-ing':
+    'ing is executing a system in order to identify any gaps, errors, or missing requirements.For example, YouTube also uses A/ B ing to  different versions of their website to see which version performs better.',
   'web-development':
     'Web development is the process of building, programming, and maintaining websites and web applications. It involves various disciplines such as web design, coding, programming, database management, and web server administration.',
   'web3-metaverse':
@@ -210,18 +209,18 @@ const categoryDescriptions: CategoryDescriptions = {
   smartcontracts:
     'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
   truffle:
-    'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
+    'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, ing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
   hardhat:
-    'Hardhat is another popular development framework for Ethereum smart contracts and decentralized applications (DApps). It provides a wide range of features and tools for Ethereum developers, making the development and testing of smart contracts easier and more efficient.',
+    'Hardhat is another popular development framework for Ethereum smart contracts and decentralized applications (DApps). It provides a wide range of features and tools for Ethereum developers, making the development and ing of smart contracts easier and more efficient.',
   ethers:
     '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.',
 
   //cloud computing
-  aws: 'test.',
-  gcp: 'test',
-  azure: 'test',
-  oracle: 'test.',
-  ibm: 'test',
+  aws: '.',
+  gcp: '',
+  azure: '',
+  oracle: '.',
+  ibm: '',
 
   //internet of things
   coursera:
