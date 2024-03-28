@@ -25,7 +25,7 @@ const CategoryPage = () => {
 
     return 'No description'
   }
-  
+
   return (
     <section className="flex min-h-[calc(100vh-165px)] flex-col">
       <div className="sm:ml-4 2xl:mx-auto items-start gap-2">
@@ -70,7 +70,7 @@ const CategoryPage = () => {
                   </Link>
                 ))}
                 <Link
-                  href={`https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=chore%2Cgoal%3A+new-category%2Cpriority%3A+low&projects=&template=---category-suggestion.yml&title=%5BADD%5D+%3Cwrite+the+name+of+category%2Fsubcategory%3E`}
+                  href={`https://github.com/aditya9277/Academic-Resource-Website`}
                   aria-label={`Add new subcategory issue template link`}
                   target="_blank"
                   className="flex gap-x-2 border dark:border-theme-primary dark:border-opacity-8 rounded-xl bg-theme-secondary px-3 py-1 hover:border-dashed hover:text-dark-primary shadow-lg lg:max-w-xs px-4 py-4"
