@@ -86,11 +86,6 @@ export const sidebarData: ISidebar[] = [
         url: '/tools',
         resources: DB.openSourceTools,
       },
-      {
-        name: 'Feedback',
-        url: '/Contact',
-        resources: DB.openSourceProjects,
-      },
     ],
   },
   {
