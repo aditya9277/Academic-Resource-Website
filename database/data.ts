@@ -26,7 +26,7 @@ export const sidebarData: ISidebar[] = [
   //     { name: 'Tutorials', url: '/fonts', resources: DB.fonts },
   //     { name: 'Tuto', url: '/tuto', resources: DB.tuto },
   //     { name: 'Assignments', url: '/colors', resources: DB.colors }
-      
+
   //   ],
   // },
   {
@@ -53,7 +53,11 @@ export const sidebarData: ISidebar[] = [
   {
     category: 'MGT2003: TECH. ENTERPENEURSHIP',
     subcategory: [
-      { name: 'Previous Year Papers', url: '/javascript', resources: DB.javascript },
+      {
+        name: 'Previous Year Papers',
+        url: '/javascript',
+        resources: DB.javascript,
+      },
       { name: 'Assignments', url: '/python', resources: DB.python },
       { name: 'Tutorials', url: '/csharp', resources: DB.csharp },
       { name: 'Youtube Links', url: '/golang', resources: DB.golang },
@@ -81,6 +85,11 @@ export const sidebarData: ISidebar[] = [
         name: 'Youtube Links',
         url: '/tools',
         resources: DB.openSourceTools,
+      },
+      {
+        name: 'Feedback',
+        url: '/Contact',
+        resources: DB.openSourceProjects,
       },
     ],
   },
