@@ -12,12 +12,12 @@ import Logo from 'assets/icons/svg/logo.svg'
 // import LinkedinIcon from 'assets/icons/svg/linkedin.svg'
 // import XIcon from 'assets/icons/svg/x.svg'
 import HeartIcon from 'assets/icons/svg/heart.svg'
-import moon from 'assets/icons/svg/moon.svg'
+// import moon from 'assets/icons/svg/moon.svg'
 // import SaveInActiveIcon from 'assets/icons/svg/nav/save-inactive.svg'
 // import SaveActiveIcon from 'assets/icons/svg/nav/save-active.svg'
 import TeamInActiveIcon from 'assets/icons/svg/nav/team-inactive.svg'
 import TeamActiveIcon from 'assets/icons/svg/nav/team-active.svg'
-import StarIcon from 'assets/icons/StarIcon'
+// import StarIcon from 'assets/icons/StarIcon'
 
 export const Header: FC = () => {
   const router = useRouter()
@@ -56,13 +56,6 @@ export const Header: FC = () => {
   const activeIconCls = 'fill-primary dark:fill-white'
 
   const navLinks = [
-    // {
-    //   inActiveIcon: <SaveInActiveIcon className={inActiveIconCls} />,
-    //   activeIcon: <SaveActiveIcon className={activeIconCls} />,
-    //   label: 'Saved',
-    //   href: '/saved',
-    //   isDisabled: true,
-    // },
     {
       inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
       activeIcon: <TeamActiveIcon className={activeIconCls} />,
@@ -106,8 +99,8 @@ export const Header: FC = () => {
           <Logo />
         </Link>
       </div>
-      <div className="flex items-center justify-center text-center p-2 font-bold text-4xl">
-        <h1>Accelify &nbsp;</h1>
+      <div className="flex items-center justify-center text-center p-3 font-bold text-4xl">
+        <h1>Accelify </h1>
       </div>
 
       <div className="flex items-center justify-center gap-6">
@@ -118,13 +111,13 @@ export const Header: FC = () => {
           <ThemeToggler />
         </div>
 
-        {/* <Button
-          label="Sponsor"
+        <Button
+          label="Feedback"
           icon={<HeartIcon />}
           variant="pale"
-          link="https://github.com/sponsors/rupali-codes"
+          link="https://accelify-feedback.vercel.app/"
           className="hidden sm:flex"
-        /> */}
+        />
       </div>
     </header>
   )

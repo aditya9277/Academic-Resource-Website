@@ -43,14 +43,6 @@ export type Category =
   | 'MAT2001: Calculus-Laplace'
   | 'PHY1001: Engineering-Physics'
   | 'ENG1004: English'
-// | 'youtube'
-// | 'other'
-// | 'devops'
-// | 'competitive-programming'
-// | 'technical-writing'
-// | 'Placement-Prep'
-// | 'data-structures'
-// | 'BlockChain'
 
 export type SubCategories = {
   name: string

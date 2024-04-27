@@ -370,6 +370,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="lg:w-full flex flex-col lg:flex-row items-center justify-between mt-6 sm:mt-0">
+          <div className="text-text-quinary pt-1 md:pl-4 lg:mx-8 text-md">
+            <Link href={'/Contact'}>
+              <button className="text-center items-center justify-center flex">
+                Feedback
+              </button>
+            </Link>
+          </div>
+        </div>
       </section>
     </>
   )

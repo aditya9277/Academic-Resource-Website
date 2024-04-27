@@ -35,7 +35,7 @@ const Sidebar: FC = () => {
           <QuestionMarkIcon className="fill-gray-400 group-hover:fill-red-500 transition-colors" />
         }
         variant="text"
-        link="https://github.com/rupali-codes/LinksHub/issues/new/choose"
+        link="/"
         className="group hover:text-red-500 dark:hover:text-red-500 hidden tall:flex"
       />
     </div>

@@ -38,7 +38,7 @@ const CategoryPage = () => {
 
               <a
                 className="flex my-auto gap-x-3"
-                href="https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=status%3A+awaiting+triage&projects=&template=other.yml&title=%5BOTHER%5D"
+                href="/Contact"
                 target="_blank"
               >
                 <MessageIcon className="m-auto" />
