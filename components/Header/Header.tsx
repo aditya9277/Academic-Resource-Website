@@ -81,7 +81,6 @@ export const Header: FC = () => {
               }`}
             >
               <span className="flex items-center justify-center" title={label}>
-                {isActive ? activeIcon : inActiveIcon}
               </span>
               <span>{label}</span>
             </a>
