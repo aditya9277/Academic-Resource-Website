@@ -1,8 +1,8 @@
 [
     {
-    "name": "Test",
-    "description": "Backend Links to be added",
-    "url": "https://google.com",
+    "name": "Tutorial",
+    "description": "",
+    "url": "https://drive.google.com/drive/folders/1leEbjvjygdTom32WBYGqxaC9ocU9eWZu?usp=drive_link",
     "category": "backend",
     "subcategory": "gcp"
     }
