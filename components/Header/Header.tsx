@@ -64,7 +64,7 @@ export const Header: FC = () => {
   ]
 
   const renderLinks = () =>
-    navLinks.map(({ inActiveIcon, activeIcon, label, href }, i) => {
+    navLinks.map(({label, href }, i) => {
       const checkRoute = (val: string) => router.asPath.startsWith(val)
 
       const isHomeActive = !checkRoute('/saved') && !checkRoute('/')
