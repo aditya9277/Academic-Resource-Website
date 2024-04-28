@@ -1,9 +1,16 @@
 [
     {
-    "name": "Test",
+    "name": "Tutorial 1",
     "description": "Backend Links to be added",
-    "url": "https://google.com",
+    "url": "https://drive.google.com/file/d/1AxLkH7oQXtU_Cb0_X3SAJz0B8UEUQX2e/view?usp=drive_link",
     "category": "backend",
     "subcategory": "devops-methodologies"
-    }
+    },
+    {
+        "name": "Tutorial 2",
+        "description": "Backend Links to be added",
+        "url": "https://drive.google.com/file/d/1CU6ncPTGeY2HTYw1SWkEith0qChP99C9/view?usp=drive_link",
+        "category": "backend",
+        "subcategory": "devops-methodologies"
+        }
 ]
