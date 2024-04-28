@@ -57,10 +57,8 @@ export const Header: FC = () => {
 
   const navLinks = [
     {
-      inActiveIcon: <TeamInActiveIcon className={inActiveIconCls} />,
-      activeIcon: <TeamActiveIcon className={activeIconCls} />,
-      label: 'Our Team',
-      href: 'https://github.com/aditya9277/Academic-Resource-Website',
+      label: 'Get MCQs',
+      href: 'https://mcqgeneratorv1.streamlit.app/',
       isDisabled: false,
     },
   ]
