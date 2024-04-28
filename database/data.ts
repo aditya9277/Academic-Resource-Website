@@ -72,7 +72,7 @@ export const sidebarData: ISidebar[] = [
         resources: DB.openSourceArticles,
       },
       {
-        name: 'Assignemnts',
+        name: 'Assignments',
         url: '/os-programs',
         resources: DB.openSourcePrograms,
       },
