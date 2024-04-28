@@ -1,8 +1,8 @@
 [
   {
-  "name": "Test",
-  "description": "Backend Links to be added",
-  "url": "https://google.com",
+  "name": "YouTube playlist",
+  "description": "",
+  "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
   "category": "backend",
   "subcategory": "machine-learning"
   }
