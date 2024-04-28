@@ -1,8 +1,8 @@
 [
   {
-  "name": "Test",
-  "description": "Backend Links to be added",
-  "url": "https://google.com",
+  "name": "Tutorial 1",
+  "description": "",
+  "url": "https://docs.google.com/document/d/1Cu-wMFfrPhX8xBd42Ib2vdH5SVDM8udH/edit?usp=drive_link&ouid=116291353832606067497&rtpof=true&sd=true",
   "category": "backend",
   "subcategory": "csharp"
   }

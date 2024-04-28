@@ -1,8 +1,8 @@
 [
         {
-        "name": "Test",
-        "description": "Backend Links to be added",
-        "url": "https://google.com",
+        "name": "Youtube Playlist",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=uB3i-qV6VdM&list=PLxCzCOWd7aiHGhOHV-nwb0HR5US5GFKFI",
         "category": "backend",
         "subcategory": "email-providers"
         }
